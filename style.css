@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+body{
+    background-color: greenyellow;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+    width: 35rem;
+    height: 30rem;
+}
+
+.title--text{
+    height: 5rem;
+    font-size: 2.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    color: #fff;
+    font-weight: 700;
+    gap: 1rem;
+}
+
+.title--text a{
+    text-decoration: none;
+    color: chocolate;
+}
+
+.pass--input{
+    margin: 0 auto;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    margin-left: 5rem;
+}
+
+.input{
+    width: 22rem;
+    height: 2.8rem;
+    border-radius: 10px 0 0 10px;
+    border: none;
+    font-size: 1rem;
+    color: #444;
+}
+
+input:focus{
+    outline: none;
+}
+
+input::placeholder{
+    padding-left: 0.4rem;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.fa-eye-slash{
+    font-size: 1rem;
+    /* transform: translate(-170%, -5%); */
+    cursor: pointer;
+    background-color: #fff;
+    width: 2rem;
+    height: 2.8rem;
+    border-radius: 0 10px 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-eye{
+    font-size: 1rem;
+    /* transform: translate(-170%, -5%); */
+    cursor: pointer;
+    background-color: #fff;
+    width: 2rem;
+    height: 2.8rem;
+    border-radius: 0 10px 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.check--list{
+    margin-left: 5rem;
+}
+
+
+li{
+    list-style: none;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: red;
+    margin: 0.5rem;
+}
+
+li i{
+    font-size: 0.9rem;
+    color: red;
+}
+
+.fa-circle-check{
+    font-size: 0.9rem;
+    color: green;
+}
+
+@media screen and (max-width: 550px) {
+    .title--text{
+        font-size: 1.5rem;
+    }
+    .pass--input{
+        margin-left: 3rem;
+    }
+    .check--list{
+        margin-left: 3rem;
+    }
+    .input{
+        width: 18rem;
+    }
+}

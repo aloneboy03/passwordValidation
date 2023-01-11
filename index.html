@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Password | Coder</title>
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="top--title">
+                <p class="title--text">Password Validation <a href="https://t.me/abdulazizbek_blog">| Coder</a></p>
+            </div>
+            <div class="pass--input">
+                <input class="input" type="password" placeholder="Enter Password...">
+                <i onclick="see()" id="see" class="fa-regular fa-eye-slash"></i>
+                <!-- <i class="fa-sharp fa-solid fa-eye"></i> -->
+            </div>
+            <div class="check">
+                <div class="check--list">
+                    <ul class="check--text">
+                        <li class="check--texts check0"><i class="fa-regular fa-circle-dot check00"></i> At least one lowercase character</li>
+                        <li class="check--texts check1"><i class="fa-regular fa-circle-dot check01"></i> At least one uppercase character</li>
+                        <li class="check--texts check2"><i class="fa-regular fa-circle-dot check02"></i> At least one number</li>
+                        <li class="check--texts check3"><i class="fa-regular fa-circle-dot check03"></i> At least one special character</li>
+                        <li class="check--texts check4"><i class="fa-regular fa-circle-dot check04"></i> At least 8 characters</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script files -->
+    <script src="script.js"></script>
+</body>
+</html>
